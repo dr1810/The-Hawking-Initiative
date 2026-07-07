@@ -1,0 +1,11 @@
+# Ignore the environment variables file
+.env
+
+# Ignore external dependencies folders
+node_modules/
+__pycache__/
+.venv/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
