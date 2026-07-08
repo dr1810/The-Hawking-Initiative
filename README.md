@@ -25,6 +25,7 @@ Step 5: View the Application using the localhost link in your terminal
 ## How to view the Base UI Specification built using Tkinter
 
 Step 1: Clone the repository (If not done already)
+
 Step 2: Activate the virtual environment
 
 ```bash
