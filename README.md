@@ -32,7 +32,12 @@ Step 2: Activate the virtual environment
 source .venv/bin/activate
 ```
 
-Step 3: Run the command to view the UI
+Step 3: Enter the BaseUI directory
+```bash
+    cd BaseUI
+```
+
+Step 4: Run the command to view the UI
 
 ```bash
 python Flashcards.py
