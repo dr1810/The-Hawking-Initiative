@@ -22,6 +22,11 @@ def vision_score():
 def hearing_score():
     detect = first_hear.get_value(first_hear.scale.get())
     noise_comprehension = second_hear.get_value(second_hear.scale.get())
+    expression = third_hear.get_value(third_hear.scale.get())
+    auditory_comprehension = fourth_hear.get_value(fourth_hear.scale.get())
+    communication = fifth_hear.get_value(fifth_hear.scale.get())
+    hear_obj = Hearing(detect,noise_comprehension,expression,auditory_comprehension,communication)
+    print(hear_obj.hearing_score())
     
 #VISION
 vision_title_label = Label(text="Questions to analyze vision",fg=FG,font=FONT)
@@ -44,4 +49,12 @@ fourth_hear = Question("How difficult is it to understand spoken instructions?",
 fifth_hear = Question("Do communication difficulties affect your daily life?",0,22,0,23)
 hear_button = Button(text="Calculate Hear Score",fg=FG,font=FONT,command=hearing_score)
 hear_button.grid(column=0,row=24)
+
+#COGNITIVE ABILITY
+cognitive_label = Label(text="Questions to understand cognitive abilities",fg=FG,font=FONT)
+cognitive_label.grid(column=1,row=1)
+cog_first = Question("How often do you lose focus while learning?",0)
+#READING ABILITY
+
+#MOTOR SKILLS
 window.mainloop()

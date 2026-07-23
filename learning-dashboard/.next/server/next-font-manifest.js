@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/rameshlathimuthu/Desktop/The-Hawking-Initiative/learning-dashboard/app/layout":["static/media/a65324f02aa278dc-s.p.woff2","static/media/68180864d7f93f02-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
