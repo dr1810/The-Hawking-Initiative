@@ -34,9 +34,13 @@ declare namespace __next_route_internal_types__ {
   type StaticRoutes = 
     | `/`
     | `/accessibility-profile`
+    | `/api/flashcards`
+    | `/api/step-assist`
+    | `/api/task-breakdown`
     | `/diagnostic-assessment`
     | `/learning-analytics`
     | `/learning-workspace`
+    | `/task-agent`
   type DynamicRoutes<T extends string = string> = never
 
   type RouteImpl<T> = 

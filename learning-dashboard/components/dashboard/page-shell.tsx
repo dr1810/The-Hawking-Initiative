@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BookOpenText, ChartSpline, ClipboardCheck, UserRoundCog } from "lucide-react";
+import { BookOpenText, Bot, ChartSpline, ClipboardCheck, UserRoundCog } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
@@ -7,6 +7,7 @@ const navItems = [
   { href: "/diagnostic-assessment", label: "Diagnostic Assessment", icon: ClipboardCheck },
   { href: "/accessibility-profile", label: "Accessibility Profile", icon: UserRoundCog },
   { href: "/learning-workspace", label: "Learning Workspace", icon: BookOpenText },
+  { href: "/task-agent", label: "Task Agent", icon: Bot },
   { href: "/learning-analytics", label: "Learning Analytics", icon: ChartSpline }
 ] as const;
 

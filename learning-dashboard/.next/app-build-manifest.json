@@ -1,62 +1,40 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-23703c1122a36182.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-62902f04efbdd792.js",
-      "static/chunks/main-app-be5b70d391af8185.js",
-      "static/chunks/app/_not-found/page-29a208edcc7b8e41.js"
-    ],
     "/layout": [
-      "static/chunks/webpack-23703c1122a36182.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-62902f04efbdd792.js",
-      "static/chunks/main-app-be5b70d391af8185.js",
-      "static/css/9e25cbff5057a75c.css",
-      "static/chunks/app/layout-51fea988345a1480.js"
-    ],
-    "/accessibility-profile/page": [
-      "static/chunks/webpack-23703c1122a36182.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-62902f04efbdd792.js",
-      "static/chunks/main-app-be5b70d391af8185.js",
-      "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/app/accessibility-profile/page-ed15f44ab37b0331.js"
-    ],
-    "/learning-analytics/page": [
-      "static/chunks/webpack-23703c1122a36182.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-62902f04efbdd792.js",
-      "static/chunks/main-app-be5b70d391af8185.js",
-      "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/288-590dc8ae417f098a.js",
-      "static/chunks/app/learning-analytics/page-22c952f959cb9d17.js"
-    ],
-    "/learning-workspace/page": [
-      "static/chunks/webpack-23703c1122a36182.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-62902f04efbdd792.js",
-      "static/chunks/main-app-be5b70d391af8185.js",
-      "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/288-590dc8ae417f098a.js",
-      "static/chunks/273-233d7dd3d6fe1cea.js",
-      "static/chunks/app/learning-workspace/page-789a781d2ee579ab.js"
-    ],
-    "/diagnostic-assessment/page": [
-      "static/chunks/webpack-23703c1122a36182.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-62902f04efbdd792.js",
-      "static/chunks/main-app-be5b70d391af8185.js",
-      "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/288-590dc8ae417f098a.js",
-      "static/chunks/app/diagnostic-assessment/page-152f2a8e9efb9972.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/page": [
-      "static/chunks/webpack-23703c1122a36182.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-62902f04efbdd792.js",
-      "static/chunks/main-app-be5b70d391af8185.js",
-      "static/chunks/app/page-f47082ca351a8369.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/diagnostic-assessment/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/diagnostic-assessment/page.js"
+    ],
+    "/accessibility-profile/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/accessibility-profile/page.js"
+    ],
+    "/learning-workspace/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/learning-workspace/page.js"
+    ],
+    "/task-agent/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/task-agent/page.js"
+    ],
+    "/learning-analytics/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/learning-analytics/page.js"
     ]
   }
 }
